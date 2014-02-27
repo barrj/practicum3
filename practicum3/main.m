@@ -141,6 +141,8 @@ int main (int argc, const char * argv[]) {
     testPrint(@"Here's a test string");
     
     testPrint(@"Here's another test string");
+    
+    testPrint(@"Here's yet another test string");
 	
 	// not needed with automatic memory allocation
     // [pool drain];
