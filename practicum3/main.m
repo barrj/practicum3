@@ -137,6 +137,8 @@ int main (int argc, const char * argv[]) {
     
     NSLog(@"yCase has number %d", [yCase numItems]);
     
+    NSLog(@"Some info");
+    
     // and here's an example of a function that is defined in main.m  It's just a regular C function
     testPrint(@"Here's a test string");
     
