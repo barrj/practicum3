@@ -10,6 +10,8 @@
 		0F4A182D18BF877D00F4FB58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F4A182C18BF877D00F4FB58 /* Foundation.framework */; };
 		0F4A183018BF877D00F4FB58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4A182F18BF877D00F4FB58 /* main.m */; };
 		0F4A183418BF877D00F4FB58 /* practicum3.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0F4A183318BF877D00F4FB58 /* practicum3.1 */; };
+		0F4A183E18BF879600F4FB58 /* myBag.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4A183B18BF879600F4FB58 /* myBag.m */; };
+		0F4A183F18BF879600F4FB58 /* mySuitcase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4A183D18BF879600F4FB58 /* mySuitcase.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,10 @@
 		0F4A182F18BF877D00F4FB58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0F4A183218BF877D00F4FB58 /* practicum3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "practicum3-Prefix.pch"; sourceTree = "<group>"; };
 		0F4A183318BF877D00F4FB58 /* practicum3.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = practicum3.1; sourceTree = "<group>"; };
+		0F4A183A18BF879600F4FB58 /* myBag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = myBag.h; path = ../../Obj_C_Classes/Hello_Obj_C/myBag.h; sourceTree = "<group>"; };
+		0F4A183B18BF879600F4FB58 /* myBag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = myBag.m; path = ../../Obj_C_Classes/Hello_Obj_C/myBag.m; sourceTree = "<group>"; };
+		0F4A183C18BF879600F4FB58 /* mySuitcase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mySuitcase.h; path = ../../Obj_C_Classes/Hello_Obj_C/mySuitcase.h; sourceTree = "<group>"; };
+		0F4A183D18BF879600F4FB58 /* mySuitcase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = mySuitcase.m; path = ../../Obj_C_Classes/Hello_Obj_C/mySuitcase.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +79,10 @@
 		0F4A182E18BF877D00F4FB58 /* practicum3 */ = {
 			isa = PBXGroup;
 			children = (
+				0F4A183A18BF879600F4FB58 /* myBag.h */,
+				0F4A183B18BF879600F4FB58 /* myBag.m */,
+				0F4A183C18BF879600F4FB58 /* mySuitcase.h */,
+				0F4A183D18BF879600F4FB58 /* mySuitcase.m */,
 				0F4A182F18BF877D00F4FB58 /* main.m */,
 				0F4A183318BF877D00F4FB58 /* practicum3.1 */,
 				0F4A183118BF877D00F4FB58 /* Supporting Files */,
@@ -140,6 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F4A183018BF877D00F4FB58 /* main.m in Sources */,
+				0F4A183E18BF879600F4FB58 /* myBag.m in Sources */,
+				0F4A183F18BF879600F4FB58 /* mySuitcase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
